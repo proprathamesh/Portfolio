@@ -1,0 +1,402 @@
+.navigate{
+    color: black;
+    transition: all 0.5s;
+}
+
+.navigate:hover{
+    color: rgb(255 155 0);
+    transform: scale(1.1);
+}
+
+.App{
+    background-image: url('./vivid-blurred-colorful-wallpaper-background.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.profilePhoto{
+    filter: drop-shadow(10px 10px 150px green);
+}
+
+.box{
+    box-shadow: 0px 8px 20px 0px black;
+}
+
+.bluring{
+    background-image: url('./vivid-blurred-colorful-wallpaper-background.jpg');
+    background-size: cover;
+}
+
+.setDev{
+    width: 50%;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.opt{
+    display: flex;
+}
+
+.intro div:nth-child(1) {
+    width: 70%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.box1 {
+    width: 55%;
+}
+
+.box2{
+    width: 40%;
+}
+
+.works {
+    background: linear-gradient(to right, rgb(217, 255, 0, 0.4), rgb(0, 255, 106, 0.4));
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(255 92 0);
+    outline: none;
+    color: #fff;
+    width: 300px;
+}
+
+textarea {
+    background-color: transparent;
+    border: 2px solid rgb(255 92 0);
+    outline: none;
+    color: #fff;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #fff;
+}
+
+.naming{
+    font-size: 7vw;
+}
+
+.plan-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.plan-container div:nth-child(1) {
+    flex: 4;
+}
+.plan-container div:nth-child(2) {
+    flex: 5;
+}
+
+
+
+/* Carousel Container */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  /* Carousel Wrapper */
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    perspective: 1000px;
+  }
+  
+  /* Carousel Card */
+  .cr-card {
+    position: absolute;
+    width: auto; /* Adjust as needed */
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s, filter 0.5s;
+    will-change: transform, filter;
+    transform-origin: center center;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  /* Arrow Buttons */
+  .arrow {
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .prev {
+    left: 20px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+
+
+
+@media (max-width: 1220px) {
+    .profilePhoto span, .profilePhoto{
+        text-align: center;
+    }
+    .intro{
+        flex-direction: column;
+    }
+    .opt{
+        justify-content: center;
+        width: 100%;
+    }
+    .setDev {
+        width: 60%;
+    }
+}
+@media(max-width: 1000px) {
+    .profilePhoto span {
+        font-size: 12vw;
+    }
+    .profilePhoto h1 span:nth-child(1) {
+        font-size: 8vw;
+    }
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        height: 350px;
+    }
+    .intro div:nth-child(1) {
+        width: 100%;
+    }
+    .plan-container{
+        flex-direction: column;
+    }
+    /* .plan-container div:nth-child(1) {
+        flex: 2;
+    } */
+}
+
+.edu-box {
+    border-left: 3px solid black;
+}
+
+
+/* FLOATING EFFECT */
+.content{
+    position: relative;
+    top: -35px;
+}
+.content h1{
+    color: #fff;
+    font-size: 1.5em;
+    position: absolute;
+}
+.content h1:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px #8338ec;
+}
+.content h1:nth-child(2){
+    color: #47207e;
+    animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        clip-path: polygon(
+            0% 50%,
+            20% 50%,
+            33% 50%,
+            54% 50%,
+            70% 50%,
+            84% 50%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    12% {
+        clip-path: polygon(
+            0% 40%,
+            16% 50%,
+            33% 50%,
+            54% 50%,
+            70% 50%,
+            84% 50%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    25% {
+        clip-path: polygon(
+            0% 40%,
+            16% 40%,
+            33% 50%,
+            54% 50%,
+            70% 50%,
+            84% 50%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    37% {
+        clip-path: polygon(
+            0% 50%,
+            16% 40%,
+            33% 40%,
+            54% 50%,
+            70% 50%,
+            84% 50%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    50% {
+        clip-path: polygon(
+            0% 55%,
+            16% 50%,
+            33% 40%,
+            54% 40%,
+            70% 50%,
+            84% 50%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    62% {
+        clip-path: polygon(
+            0% 55%,
+            20% 55%,
+            33% 50%,
+            54% 40%,
+            70% 40%,
+            84% 50%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    75% {
+        clip-path: polygon(
+            0% 50%,
+            20% 55%,
+            33% 55%,
+            54% 50%,
+            70% 40%,
+            84% 40%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    87% {
+        clip-path: polygon(
+            0% 50%,
+            16% 50%,
+            33% 55%,
+            54% 55%,
+            70% 50%,
+            84% 40%,
+            100% 40%,
+            100% 100%,
+            0% 100%
+        );
+    }
+    100% {
+        clip-path: polygon(
+            0% 50%,
+            20% 50%,
+            33% 50%,
+            54% 50%,
+            70% 50%,
+            84% 50%,
+            100% 50%,
+            100% 100%,
+            0% 100%
+        );
+    }
+}
+
+
+/* carousel */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    position: relative;
+    width: 60%; /* Adjust the width as needed */
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%;
+    height: auto;
+    position: absolute;
+    opacity: 0;
+    filter: blur(8px); /* Apply the blur effect */
+    transition: opacity 0.5s, filter 0.5s;
+  }
+  
+  .carousel-slide.active {
+    flex: 0 0 100%;
+    height: auto;
+    position: absolute;
+    opacity: 1;
+    filter: blur(0);
+    transition: opacity 0.5s, filter 0.5s;
+  }
+  
+  .prev-button,
+  .next-button {
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+    outline: none;
+  }
