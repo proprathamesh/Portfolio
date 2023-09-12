@@ -37,6 +37,11 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+    padding: 0rem 3rem;
+}
+
+.field-shower{
+    font-size: 50px;
 }
 
 .opt{
@@ -183,7 +188,7 @@ input::placeholder, textarea::placeholder{
     }
 }
 @media(max-width: 1000px) {
-    .profilePhoto span {
+    .profilePhoto span:nth-child(1) {
         font-size: 12vw;
     }
     .profilePhoto h1 span:nth-child(1) {
@@ -206,9 +211,15 @@ input::placeholder, textarea::placeholder{
     .plan-container{
         flex-direction: column;
     }
-    /* .plan-container div:nth-child(1) {
-        flex: 2;
-    } */
+    .field-shower{
+        font-size: 6vw;
+    }
+}
+
+@media(max-width: 500px) {
+    .intro{
+        padding: 0rem;
+    }
 }
 
 .edu-box {
