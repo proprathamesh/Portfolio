@@ -107,6 +107,13 @@ input::placeholder, textarea::placeholder{
     flex: 5;
 }
 
+.name-email input:nth-child(1){
+    margin: 0px 10px 0px 0px;
+}
+.name-email input:nth-child(2){
+    margin: 0px 0px 0px 10px;
+}
+
 
 
 /* Carousel Container */
@@ -216,9 +223,14 @@ input::placeholder, textarea::placeholder{
     }
 }
 
-@media(max-width: 500px) {
-    .intro{
-        padding: 0rem;
+@media(max-width: 710px) {
+    .name-email input:nth-child(1){
+        margin: 0px;
+        width: 100%;
+    }
+    .name-email input:nth-child(2){
+        margin: 20px 0px 0px 0px;
+        width: 100%;
     }
 }
 
@@ -229,13 +241,14 @@ input::placeholder, textarea::placeholder{
 
 /* FLOATING EFFECT */
 .content{
-    position: relative;
-    top: -35px;
+    position: absolute;
+    top: -5px;
 }
 .content h1{
     color: #fff;
     font-size: 1.5em;
     position: absolute;
+    margin-bottom: 0px;
 }
 .content h1:nth-child(1){
     color: transparent;
@@ -411,3 +424,12 @@ input::placeholder, textarea::placeholder{
     padding: 0 10px;
     outline: none;
   }
+
+  @media(max-width: 605px) {
+    .intro{
+        padding: 0rem;
+    }
+    .content{
+        top: 0px;
+    }
+}
