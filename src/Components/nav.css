@@ -37,11 +37,14 @@
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+<<<<<<< HEAD
+=======
     padding: 0rem 3rem;
 }
 
 .field-shower{
     font-size: 50px;
+>>>>>>> 666cb94eb49cdc86815ce502ccedb1096755f066
 }
 
 .opt{
@@ -195,7 +198,11 @@ input::placeholder, textarea::placeholder{
     }
 }
 @media(max-width: 1000px) {
+<<<<<<< HEAD
+    .profilePhoto span {
+=======
     .profilePhoto span:nth-child(1) {
+>>>>>>> 666cb94eb49cdc86815ce502ccedb1096755f066
         font-size: 12vw;
     }
     .profilePhoto h1 span:nth-child(1) {
@@ -218,6 +225,11 @@ input::placeholder, textarea::placeholder{
     .plan-container{
         flex-direction: column;
     }
+<<<<<<< HEAD
+    /* .plan-container div:nth-child(1) {
+        flex: 2;
+    } */
+=======
     .field-shower{
         font-size: 6vw;
     }
@@ -232,6 +244,7 @@ input::placeholder, textarea::placeholder{
         margin: 20px 0px 0px 0px;
         width: 100%;
     }
+>>>>>>> 666cb94eb49cdc86815ce502ccedb1096755f066
 }
 
 .edu-box {
