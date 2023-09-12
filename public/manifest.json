@@ -8,7 +8,11 @@
       "type": "image/x-icon"
     },
     {
+<<<<<<< HEAD
       "src": "logo512.png",
+=======
+      "src": "logo192.png",
+>>>>>>> 666cb94eb49cdc86815ce502ccedb1096755f066
       "type": "image/png",
       "sizes": "192x192"
     },

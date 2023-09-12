@@ -33,9 +33,15 @@ export default function Intro() {
 
   return (
     <div>
+<<<<<<< HEAD
       <div className="App intro px-5">
         <div className="w-100 d-flex flex-column px-4 profilePhoto">
           <span className="my-4 fs-2">Hi! My name is<span style={{color:'rgb(255 155 0)',fontFamily: 'Great Vibes, cursive'}} className="naming" ><br/>Prathamesh Yadav</span><br/> and I am a passionate<br/><span ref={el} style={{color:'rgb(255 155 0)', fontWeight:'bold'}} className='fs-1' id="expertise"></span></span>
+=======
+      <div className="App intro">
+        <div className="w-100 d-flex flex-column px-4 profilePhoto">
+          <span className="my-4 fs-2">Hi! My name is<span style={{color:'rgb(255 155 0)',fontFamily: 'Great Vibes, cursive'}} className="naming" ><br/>Prathamesh Yadav</span><br/> and I am a passionate<br/><span ref={el} style={{color:'rgb(255 155 0)', fontWeight:'bold'}} className='field-shower' id="expertise"></span></span>
+>>>>>>> 666cb94eb49cdc86815ce502ccedb1096755f066
           <div className="opt">
             <button type="button" className="btn btn-dark mx-4 col-2 shadow" style={{minWidth:'111px'}}>Hire me</button>
             <button type="button" onClick={downloadRes} className="btn btn-light mx-4 col-2 border shadow border-black" style={{minWidth:'111px'}}>
