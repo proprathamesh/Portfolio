@@ -58,7 +58,6 @@ let goNext = () => {
 
 
 export default function Works() {
-  const rightSide = document.getElementsByClassName('right');
   return (
     <div className="bg-body-tertiary pb-5">
       <h1 className="text-secondary mx-5">
