@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ba88c64c.css",
-    "main.js": "/Portfolio/static/js/main.3a8e4ea5.js",
+    "main.css": "/Portfolio/static/css/main.0c8d6997.css",
+    "main.js": "/Portfolio/static/js/main.aa040e25.js",
     "static/js/787.a840fbe2.chunk.js": "/Portfolio/static/js/787.a840fbe2.chunk.js",
     "static/media/vivid-blurred-colorful-wallpaper-background.jpg": "/Portfolio/static/media/vivid-blurred-colorful-wallpaper-background.ec9206a5f264407763c5.jpg",
     "static/media/billgenie.png": "/Portfolio/static/media/billgenie.352ad516a201a5bb4f73.png",
@@ -12,12 +12,12 @@
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.8b71ba59c689d059d59b.pdf",
     "static/media/textspy.png": "/Portfolio/static/media/textspy.b2793461627202b39989.png",
     "index.html": "/Portfolio/index.html",
-    "main.ba88c64c.css.map": "/Portfolio/static/css/main.ba88c64c.css.map",
-    "main.3a8e4ea5.js.map": "/Portfolio/static/js/main.3a8e4ea5.js.map",
+    "main.0c8d6997.css.map": "/Portfolio/static/css/main.0c8d6997.css.map",
+    "main.aa040e25.js.map": "/Portfolio/static/js/main.aa040e25.js.map",
     "787.a840fbe2.chunk.js.map": "/Portfolio/static/js/787.a840fbe2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba88c64c.css",
-    "static/js/main.3a8e4ea5.js"
+    "static/css/main.0c8d6997.css",
+    "static/js/main.aa040e25.js"
   ]
 }
