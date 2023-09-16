@@ -37,16 +37,16 @@ export default function Intro() {
           <span className="my-4 fs-2">Hi! My name is<span style={{color:'rgb(255 155 0)',fontFamily: 'Great Vibes, cursive'}} className="naming" ><br/>Prathamesh Yadav</span><br/> and I am a passionate<br/><span ref={el} style={{color:'rgb(255 155 0)', fontWeight:'bold'}} className='field-shower' id="expertise"></span></span>
           <div className="opt">
             <button type="button" className="btn btn-dark mx-4 col-2 shadow" style={{minWidth:'111px'}}>Hire me</button>
-            <button type="button" onClick={downloadRes} className="btn btn-light mx-4 col-2 border shadow border-black" style={{minWidth:'111px'}}>
+            <a href='https://billgenie.in/CuResume.pdf' download="resume.pdf" type="button" onClick={downloadRes} className="btn btn-light mx-4 col-2 border shadow border-black" style={{minWidth:'111px'}}>
               Resume
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-download" viewBox="0 0 16 16">
                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
               </svg>
-            </button>
+            </a>
           </div>
         </div>
-        <div className="setDev my-5 d-flex flex-row align-items-center justify-content-center">
+        <div className="setDev my-5 d-flex flex-row align-items-center justify-content-center fading-right">
           <img className="profilePhoto" src={WebPic} alt="" style={{width:'100%'}}/>
         </div>
       </div>

@@ -1,3 +1,21 @@
+.leftSidersInitial{
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    opacity: 0;
+    transform: translateX(-40%);
+}
+
+.rightSidersInitial{
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    opacity: 0;
+    transform: translateX(40%);
+}
+
+.zoomers{
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    opacity: 0;
+    transform: scale(0.3);
+}
+
 .navigate{
     color: black;
     transition: all 0.5s;
@@ -60,6 +78,7 @@
 }
 
 .box1 {
+    
     width: 55%;
 }
 
@@ -110,8 +129,24 @@ input::placeholder, textarea::placeholder{
 .name-email input:nth-child(1){
     margin: 0px 10px 0px 0px;
 }
+
 .name-email input:nth-child(2){
     margin: 0px 0px 0px 10px;
+}
+
+.fading-left{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.fading-right{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.zoomIn{
+    opacity: 1;
+    transform: scale(1);
 }
 
 
